@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Run Node Creation Tests",
+      "setup": "",
+      "run": "timeout 60 gradle test_node_creation",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Run Node Chaining Tests",
+      "setup": "",
+      "run": "timeout 60 gradle test_node_chaining",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "Run FileSystem Basic commands tests",
+      "setup": "",
+      "run": "timeout 60 gradle test_fs_basic",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 30
+    },
+    {
+      "name": "Run FileSystem ls",
+      "setup": "",
+      "run": "timeout 60 gradle test_fs_ls",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 15
+    },
+    {
+      "name": "Run FileSystem rm",
+      "setup": "",
+      "run": "timeout 60 gradle test_fs_rm",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 15
+    },
+    {
+      "name": "Run FileSystem mv",
+      "setup": "",
+      "run": "timeout 60 gradle test_fs_mv",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 20
+    }
+  ]
+}
